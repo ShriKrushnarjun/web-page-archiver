@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+	  "lib": ["es2016", "es2017.object"],
+	  "rootDir": "./src",
+	  "module": "esnext",
+	  "target": "es2017",
+	  "outDir": "./dist",
+	  "downlevelIteration": true,
+	  "removeComments": true,
+	  "moduleResolution": "Node",
+	  "allowSyntheticDefaultImports":true,
+	  "composite": true,
+	  "skipLibCheck": true, //added to speed up tsc
+	  "strictNullChecks": true,
+	},
+	"include": [
+	  "src/**/*",
+	],
+	"references": [
+	],
+	"assets": [
+	  "src/views/**/*"
+	]
+  }
+  

@@ -1,0 +1,7 @@
+tsconfig.tsbuildinfo
+
+*.html
+
+node_modules
+
+dist
