@@ -27,8 +27,8 @@
 ```docker exec -it webpage-container bash```
 
 #### To experiment with the application you use following commands inside docker bash
-```ls```
-```node dist/app.js https://google.com https://autify.com```
-```node dist/app.js --metadata https://google.com https://autify.com```
-```exit```
+- ```ls```
+- ```node dist/app.js https://google.com https://autify.com```
+- ```node dist/app.js --metadata https://google.com https://autify.com```
+- ```exit```
 
